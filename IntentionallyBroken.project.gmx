@@ -7,6 +7,13 @@
   <sounds name="sound">
     <sound>sound\NatureLoop</sound>
     <sound>sound\ScifiLoop</sound>
+    <sound>sound\ExplorationLoop</sound>
+    <sound>sound\FXHurtGlitched</sound>
+    <sound>sound\FXHurt</sound>
+    <sound>sound\FXShootGlitched</sound>
+    <sound>sound\FXShoot</sound>
+    <sound>sound\FXJumpGlitched</sound>
+    <sound>sound\FXJump</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\Avatar</sprite>
@@ -17,33 +24,108 @@
     <sprite>sprites\EnemyBoss2</sprite>
     <sprite>sprites\EnemyBoss3</sprite>
     <sprite>sprites\EnemyBoss4</sprite>
-    <sprite>sprites\EnemyBoss5</sprite>
     <sprite>sprites\EnemyBossFinal</sprite>
     <sprite>sprites\Spikes</sprite>
+    <sprite>sprites\Spikes_Top</sprite>
+    <sprite>sprites\Spikes_Right</sprite>
+    <sprite>sprites\Spikes_Left</sprite>
     <sprite>sprites\Wall</sprite>
     <sprite>sprites\Health</sprite>
     <sprite>sprites\Bullet</sprite>
+    <sprite>sprites\TutorialConsole</sprite>
+    <sprite>sprites\Glitch</sprite>
+    <sprite>sprites\HurtShader</sprite>
+    <sprite>sprites\HealShader</sprite>
+    <sprite>sprites\Door1</sprite>
+    <sprite>sprites\Door2</sprite>
+    <sprite>sprites\Door3</sprite>
+    <sprite>sprites\Door4</sprite>
+    <sprite>sprites\Door5</sprite>
+    <sprite>sprites\Teleporter</sprite>
+    <sprite>sprites\InvisiDoor</sprite>
+    <sprite>sprites\InvisiDoorTrigger</sprite>
+    <sprite>sprites\MMStartButton</sprite>
+    <sprite>sprites\MMContinueButton</sprite>
+    <sprite>sprites\MMExitButton</sprite>
+    <sprite>sprites\BossHitRegion</sprite>
+    <sprite>sprites\BossHitRegionHit</sprite>
   </sprites>
   <backgrounds name="background"/>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\Boss1Path</path>
+  </paths>
+  <scripts name="scripts"/>
+  <fonts name="fonts">
+    <font>fonts\ComputerFont</font>
+    <font>fonts\GlitchFont</font>
+  </fonts>
   <objects name="objects">
     <object>objects\Avatar_obj</object>
     <object>objects\Platform_obj</object>
     <object>objects\SmallEnemy_obj</object>
     <object>objects\SmallEnemy2_obj</object>
-    <object>objects\EnemyBoss1_obj</object>
-    <object>objects\EnemyBoss2_obj</object>
-    <object>objects\EnemyBoss3_obj</object>
-    <object>objects\EnemyBoss4_obj</object>
-    <object>objects\EnemyBoss5_obj</object>
-    <object>objects\EnemyBossFinal_obj</object>
     <object>objects\Spikes_obj</object>
+    <object>objects\Spikes_Top_Obj</object>
+    <object>objects\Spikes_Left_Obj</object>
+    <object>objects\Spikes_Right_Obj</object>
     <object>objects\Wall_obj</object>
     <object>objects\Health_obj</object>
     <object>objects\Bullet_obj</object>
     <object>objects\HealthMeter_obj</object>
+    <object>objects\TutorialConsole_obj</object>
+    <object>objects\Glitch_obj</object>
+    <object>objects\HurtShader_obj</object>
+    <object>objects\HealShader_obj</object>
+    <object>objects\DEBUG_OBJ</object>
+    <object>objects\DeathObj</object>
+    <object>objects\Teleporter_obj</object>
+    <object>objects\MMStartButton_obj</object>
+    <object>objects\MMContinueButton_obj</object>
+    <object>objects\MMExitButton_obj</object>
+    <object>objects\MMTitleCredits</object>
+    <objects name="Boss 1">
+      <object>objects\EnemyBoss1_obj</object>
+      <object>objects\Boss1Console_obj</object>
+      <object>objects\Door1_obj</object>
+      <object>objects\InvisiDoor1_obj</object>
+      <object>objects\InvisiDoorTrigger1_obj</object>
+      <object>objects\Boss1WeakPoint</object>
+      <object>objects\Boss1WeakPointHit</object>
+    </objects>
+    <objects name="Boss 2">
+      <object>objects\InvisiDoor2_obj</object>
+      <object>objects\Boss2Console_obj</object>
+      <object>objects\EnemyBoss2_obj</object>
+      <object>objects\InvisiDoorTrigger2_obj</object>
+      <object>objects\Boss2WeakPoint</object>
+      <object>objects\Boss2WeakPointHit</object>
+      <object>objects\Door2_obj</object>
+    </objects>
+    <objects name="Boss 3">
+      <object>objects\InvisiDoor3_obj</object>
+      <object>objects\Boss3Console_obj</object>
+      <object>objects\EnemyBoss3_obj</object>
+      <object>objects\Door3_obj</object>
+      <object>objects\InvisiDoorTrigger3_obj</object>
+    </objects>
+    <objects name="Boss 4">
+      <object>objects\InvisiDoor4_obj</object>
+      <object>objects\EnemyBoss4_obj</object>
+      <object>objects\Boss4Console_obj</object>
+      <object>objects\InvisiDoorTrigger4_obj</object>
+      <object>objects\Door4_obj</object>
+    </objects>
+    <objects name="Boss 5">
+      <object>objects\InvisiDoorTrigger5_obj</object>
+      <object>objects\EnemyBossFinal_obj</object>
+      <object>objects\Boss5Console_obj</object>
+      <object>objects\Door5_obj</object>
+      <object>objects\InvisiDoor5_obj</object>
+    </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\MainMenu</room>
+    <room>rooms\MainGame</room>
     <room>rooms\room0</room>
   </rooms>
   <help>
