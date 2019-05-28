@@ -3,7 +3,8 @@
 Theme - **Intentionally Broken**
 
 Contributors -
-Ian - Coding / Design
-Janus - Artwork 
-Alden - participant
-Stan - participant
+
+* Ian - Coding / Design
+* Janus - Artwork
+* Alden - participant
+* Stan - participant
